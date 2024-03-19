@@ -1,0 +1,125 @@
+nav {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21A9BB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 999;
+    padding: 24px;
+    height:  50px;
+}
+
+.nav__logo {
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 2em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 32px;
+}
+
+.link a {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link a:hover {
+    color: black;
+}
+
+.user-dropdown {
+    position: fixed;
+    top: -238px;
+    right: 120px;
+    background-color: #F0F0F0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 120px;
+    width: 150px;
+    transition: top 0.5s ease-out;
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    
+    p {
+        color: #000000;
+        transition: 0.3s;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+
+    p:hover {
+        color: #008BC7;
+        cursor: pointer;
+    }
+
+    h {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+}
+
+.dropdown-expanded {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 138px;
+}
+
+.nav__btns {
+    display: flex;
+    gap: 0.5rem;
+    width: 250px;
+    justify-content: flex-end;
+}
+
+.nav__btn {
+    border: none;
+    background-color: white;
+    color: #21A9BB;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.nav__btn:hover {
+    background-color: #21A9BB;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}  
+
+.profile-btn {
+    padding: 0 !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    display: flex;
+    align-items: center;
+    color: black;
+}

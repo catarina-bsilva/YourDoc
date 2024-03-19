@@ -1,0 +1,202 @@
+.doctor-card-container {
+    width: 300px;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .cancel-appointment {
+    background-color: red;
+  }
+  
+  .doctor-card-details-container {
+    padding: 20px;
+  }
+  
+  .doctor-card-profile-image-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card-profile-image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .doctor-card-details {
+    text-align: center;
+  }
+  
+  .doctor-card-detail-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .doctor-card-detail-speciality {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .doctor-card-detail-experience {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .doctor-card-detail-location,
+  .doctor-card-detail-clinic,
+  .doctor-card-detail-consultationfees {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .doctor-card-detail-consultationfees{
+    font-weight: bold;
+    
+  }
+  
+  .book-appoinment-btn {
+    background-color: #21A9BB;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-appoinment-btn div:nth-child(2) {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  button {
+    padding: 12px 20px;
+    background-color: #21A9BB;
+    color: #fff;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #21A9BB;
+    color: black;
+  }
+  
+.appointment-modal {
+    position: fixed;
+    top: 138px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 90px);
+    background-color: rgba(94, 94, 94, 0.856);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 999;
+}
+
+.appointment-card {
+    width: 22rem;
+    height: 38rem;
+    background-color: #F0F0F0;;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    button {
+        padding: 10px 0px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 10rem;
+        background-color: #21A9BB;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    button:hover {
+        background-color: #21A9BB;
+        color:black;
+    }
+
+    input {
+        padding: 12px 0 12px 0;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px 0px;
+        font-size: 16px;
+        border: 1px solid #B4B4B4;
+        border-radius: 4px;
+        padding-left: 8px;
+    }
+
+    label {
+        color: black;
+    }
+}
+
+.cancel-appointment-btn {
+  background-color: #BB271A !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  font-size: 16px !important;
+}
+
+.cancel-appointment-btn:hover {
+  background-color: #972116 !important;
+}
+
+.app-form-group {
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
